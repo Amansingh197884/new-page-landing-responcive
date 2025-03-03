@@ -1,0 +1,255 @@
+*{
+box-sizing: border-box;
+margin: 0%;
+padding: 0%;
+}
+
+
+
+
+.navbar-nav .nav-item .nav-link {
+    margin: 20px;
+    margin-left: 100px;
+    color: black;
+
+
+}
+
+.navbar-nav .nav-item .nav-link:hover {
+  
+}
+
+.container-fluid {
+    backdrop-filter: blur(30px);
+    
+    border: 2px solid rgba(236, 139, 139, 0.18);
+  
+
+}
+.active img{
+    border-top-width: 400px;
+}
+.carousel-item{
+    /* height: 100vh; */
+    min-height: 300px;
+    
+}
+.carousel-caption{
+    bottom: 230px;
+    z-index: 2;
+}
+.carousel-caption h5{
+    font-size: 45px;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    margin-top: 30px;
+    
+}
+.carousel-caption p{
+    width: 60%;
+    margin: auto;
+    font-size: 18px;
+    line-height: 1.9;
+    
+}
+.carousel-inner::before{
+    content: "";
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    z-index: 1;
+    background: rgba(0,0,0,0.7);
+}
+.about{
+    /* padding-top: 40px; */
+    margin-top: 40px;
+    margin-left: 20px;
+    margin-bottom: 30px;
+}
+.card-section{
+    display: flex;
+   
+}
+.card-body{
+    justify-content: space-between;
+    
+}
+.mb-3{
+    margin: 20px;
+color: #fff;
+}
+.img-area img{
+    width: 330px;
+    height: 250px;
+    /* margin-right: 100px; */
+}
+.flex{
+    display: flex;
+    /* justify-content: space-between; */
+    /* margin: 20px; */
+}
+.col-lg-4{
+    /* margin: 20px; */
+    justify-content: space-between;
+}
+.card-body{
+    /* overflow: hidden; */
+}
+@media only screen and(max-width:780px){
+    .img-area img{
+    width: 100%;
+    }
+}
+@media only screen and(max-width:500px){
+    .mb-3{
+        flex-wrap: wrap;
+    }
+}
+.portfolio .card{
+    box-shadow: 15px 15px 40px rgba(0,0,0,0.15);
+}
+.team .card{
+    box-shadow: 15px 15px 40px rgba(0,0,0,0.15);
+}
+/* form */
+.form-block {
+    background: rgba(255, 255, 255, 0.85);
+    border-radius: 6px;
+    -webkit-box-shadow: 0 3px 6px rgba(91, 130, 148, 0.08);
+    box-shadow: 0 3px 6px rgba(91, 130, 148, 0.08);
+    border: 1px solid #e8e8ef;
+}
+
+.form-block form {
+    padding: 0 20px 30px 20px;
+}
+
+.form-block input:focus,
+.form-block textarea:focus {
+    border: 1px solid #f85359;
+}
+
+.form-block input {
+    width: 100%;
+    height: 50px;
+    padding: 0 15px;
+    margin: 0 0 10px 0;
+    border-radius: 6px;
+    color: #172b43;
+    font-size: 16px;
+    outline: 0;
+    background: #fff;
+    -webkit-box-shadow: 0 3px 6px rgba(91, 130, 148, 0.08);
+    box-shadow: 0 3px 6px rgba(91, 130, 148, 0.08);
+    border: 1px solid #e6e6e6;
+}
+
+.form-block textarea {
+    max-height: 200px;
+    width: 100%;
+    padding: 15px;
+    margin: 0 0 10px 0;
+    border-radius: 6px;
+    color: #172b43;
+    font-size: 16px;
+    outline: 0;
+    background: #fff;
+    -webkit-box-shadow: 0 3px 6px rgba(91, 130, 148, 0.08);
+    box-shadow: 0 3px 6px rgba(91, 130, 148, 0.08);
+    border: 1px solid #e6e6e6;
+}
+
+
+
+.form-block label input {
+    height: 20px;
+    width: 20px;
+    position: relative;
+    top: 5px;
+    margin: 0 5px 0 0;
+}
+
+
+
+.form-header {
+    text-align: center;
+    border-bottom: 3px solid #f85359;
+    padding: 20px 0 20px 0;
+    margin: 0 0 20px 0;
+    background-color: #fff5f5;
+}
+
+.form-header h2 span {
+    font-size: 36px;
+    display: block;
+    font-weight: 700;
+    color: #0a2233;
+}
+
+.form-header p {
+    text-align: center;
+}
+
+.form-block p.trm {
+    font-size: 13px;
+    width: 100%;
+    text-align: center;
+    margin: 10px 0 0 0;
+}
+
+.form-block p.trm i {
+    padding: 5px 5px 0 0;
+}
+
+.form-block button:hover {
+    color: #030303;
+    background-color: rgb(255, 255, 113);
+    transition: 0.3s ease-in-out;
+    box-shadow: 0 0 9px;
+}
+
+.form-block button {
+    font-size: 16px;
+    font-weight: 400;
+    font-family: Merriweather;
+    padding: 0 40px;
+    line-height: 60px;
+    text-align: center;
+    outline: 0;
+    color: #fff !important;
+    background-color: #1cf2a4;
+    border: none;
+    border-radius: 6px;
+    width: 100%;
+  
+}
+@media only screen and(min-width:770px) and (max-width:991px){
+    .card{
+        margin-bottom: 30px;
+    }
+    .img-area img{
+width: 100%;
+    }
+    .about-text{
+        padding-top: 50px;
+    }
+    .card{
+        margin-bottom: 30px;
+    }
+    .section{
+        margin-top: 8px;
+        margin-bottom: 8px;
+    }
+    .card-body{
+        
+        margin-top: 8px;
+        margin-bottom: 8px;
+    }
+}
+@media only screen and(max-width:400px){
+    .card-body{
+        margin: 15px;
+    }
+}

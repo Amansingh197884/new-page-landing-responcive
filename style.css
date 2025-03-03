@@ -240,4 +240,10 @@ width: 100%;
     }
     
 }
+@media only screen and(max-width:400px){
+    .about-img img{
+        width: 100%;
+        box-shadow: 2px 2px 2px 2px ;
+    }
+}
 

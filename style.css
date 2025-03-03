@@ -238,18 +238,6 @@ width: 100%;
     .card{
         margin-bottom: 30px;
     }
-    .section{
-        margin-top: 8px;
-        margin-bottom: 8px;
-    }
-    .card-body{
-        
-        margin-top: 8px;
-        margin-bottom: 8px;
-    }
+    
 }
-@media only screen and(max-width:400px){
-    .card-body{
-        margin: 15px;
-    }
-}
+
